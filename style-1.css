@@ -1,0 +1,81 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#cfcfcf, #e0e0e0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px silver;
+  text-align: center;
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.code-box {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.discounts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.discount {
+  padding: 10px;
+  background: linear-gradient(silver, #f0f0f0);
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.locked {
+  opacity: 0.4;
+}
+
+button#applyBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: silver;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button#applyBtn:hover {
+  background: #bfbfbf;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;
+  font-weight: bold;
+}
+
+.countdown {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}

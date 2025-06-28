@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silver Coupon Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="IMG-20250628-WA0004.jpg" alt="Silver Card" class="card-image" />
+    <div id="codeDisplay" class="code-box">Code: <span id="displayedCode">__________</span></div>
+
+    <div id="discounts" class="discounts">
+      <div class="discount step" data-step="0">10%</div>
+      <div class="discount step locked" data-step="1">15%</div>
+      <div class="discount step locked" data-step="2">20%</div>
+      <div class="discount step locked" data-step="3">25%</div>
+      <div class="discount step locked" data-step="4">30%</div>
+    </div>
+
+    <button id="applyBtn">Apply</button>
+    <div id="message" class="message"></div>
+    <div id="countdown" class="countdown"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
